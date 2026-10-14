@@ -1,0 +1,228 @@
+==============================================================================
+2.1  Definition 2.1 and Axioms I-IV (p-adic layer)
+==============================================================================
+       note: instance p=7, t=1, generators (a,r) = [('0', '1'), ('2', '3')]
+[PASS] [p=7,t=1] Def 2.1: nabla_e in GL2(Q_p), det nabla_e = mu(e)
+[PASS] [p=7,t=1] Def 2.1: mu(e) in pZ_p, v_p(mu) = t >= 1
+[PASS] [p=7,t=1] Def 2.1: normalization -- u_e = (a_e,1) has eigenvalue 1
+[PASS] [p=7,t=1] Axiom I in PGL2: nabla_ebar = mu(e) * nabla_e^-1 (equal projectively)
+[FAIL] [p=7,t=1] Axiom I as printed: nabla_ebar = nabla_e^-1 exactly  -- fails: with the eigenvalue-1 normalization the identity holds only up to the scalar mu(e)
+[PASS] [p=7,t=1] Axiom II: ||x+y|| <= max(||x||,||y||) on 400 random pairs
+[PASS] [p=7,t=1] Axiom II: operator sup-norm submultiplicative ||AB|| <= ||A|| ||B||
+[PASS] [p=7,t=1] Axiom III: v_e^T u_e = 1
+[PASS] [p=7,t=1] Axiom III: R_e = (nabla_e - u_e v_e^T)/mu(e) has ||R_e|| <= 1
+[PASS] [p=7,t=1] Axiom III (derivation): ping-pong g_e(P^1 \ D_ebar) in a_e + p^t Z_p
+[PASS] [p=7,t=1] Axiom IV: all 12 allowed junction weights are p-adic units
+[PASS] [p=7,t=1] Axiom IV: backtracking junctions e -> ebar have w = 0 (correctly excluded)
+       note: instance p=7, t=2, generators (a,r) = [('0', '1'), ('2', '3')]
+[PASS] [p=7,t=2] Def 2.1: nabla_e in GL2(Q_p), det nabla_e = mu(e)
+[PASS] [p=7,t=2] Def 2.1: mu(e) in pZ_p, v_p(mu) = t >= 1
+[PASS] [p=7,t=2] Def 2.1: normalization -- u_e = (a_e,1) has eigenvalue 1
+[PASS] [p=7,t=2] Axiom I in PGL2: nabla_ebar = mu(e) * nabla_e^-1 (equal projectively)
+[FAIL] [p=7,t=2] Axiom I as printed: nabla_ebar = nabla_e^-1 exactly  -- fails: with the eigenvalue-1 normalization the identity holds only up to the scalar mu(e)
+[PASS] [p=7,t=2] Axiom II: ||x+y|| <= max(||x||,||y||) on 400 random pairs
+[PASS] [p=7,t=2] Axiom II: operator sup-norm submultiplicative ||AB|| <= ||A|| ||B||
+[PASS] [p=7,t=2] Axiom III: v_e^T u_e = 1
+[PASS] [p=7,t=2] Axiom III: R_e = (nabla_e - u_e v_e^T)/mu(e) has ||R_e|| <= 1
+[PASS] [p=7,t=2] Axiom III (derivation): ping-pong g_e(P^1 \ D_ebar) in a_e + p^t Z_p
+[PASS] [p=7,t=2] Axiom IV: all 12 allowed junction weights are p-adic units
+[PASS] [p=7,t=2] Axiom IV: backtracking junctions e -> ebar have w = 0 (correctly excluded)
+       note: instance p=11, t=1, generators (a,r) = [('0', '1'), ('2', '3')]
+[PASS] [p=11,t=1] Def 2.1: nabla_e in GL2(Q_p), det nabla_e = mu(e)
+[PASS] [p=11,t=1] Def 2.1: mu(e) in pZ_p, v_p(mu) = t >= 1
+[PASS] [p=11,t=1] Def 2.1: normalization -- u_e = (a_e,1) has eigenvalue 1
+[PASS] [p=11,t=1] Axiom I in PGL2: nabla_ebar = mu(e) * nabla_e^-1 (equal projectively)
+[FAIL] [p=11,t=1] Axiom I as printed: nabla_ebar = nabla_e^-1 exactly  -- fails: with the eigenvalue-1 normalization the identity holds only up to the scalar mu(e)
+[PASS] [p=11,t=1] Axiom II: ||x+y|| <= max(||x||,||y||) on 400 random pairs
+[PASS] [p=11,t=1] Axiom II: operator sup-norm submultiplicative ||AB|| <= ||A|| ||B||
+[PASS] [p=11,t=1] Axiom III: v_e^T u_e = 1
+[PASS] [p=11,t=1] Axiom III: R_e = (nabla_e - u_e v_e^T)/mu(e) has ||R_e|| <= 1
+[PASS] [p=11,t=1] Axiom III (derivation): ping-pong g_e(P^1 \ D_ebar) in a_e + p^t Z_p
+[PASS] [p=11,t=1] Axiom IV: all 12 allowed junction weights are p-adic units
+[PASS] [p=11,t=1] Axiom IV: backtracking junctions e -> ebar have w = 0 (correctly excluded)
+       note: instance p=13, t=3, generators (a,r) = [('0', '1'), ('2', '3')]
+[PASS] [p=13,t=3] Def 2.1: nabla_e in GL2(Q_p), det nabla_e = mu(e)
+[PASS] [p=13,t=3] Def 2.1: mu(e) in pZ_p, v_p(mu) = t >= 1
+[PASS] [p=13,t=3] Def 2.1: normalization -- u_e = (a_e,1) has eigenvalue 1
+[PASS] [p=13,t=3] Axiom I in PGL2: nabla_ebar = mu(e) * nabla_e^-1 (equal projectively)
+[FAIL] [p=13,t=3] Axiom I as printed: nabla_ebar = nabla_e^-1 exactly  -- fails: with the eigenvalue-1 normalization the identity holds only up to the scalar mu(e)
+[PASS] [p=13,t=3] Axiom II: ||x+y|| <= max(||x||,||y||) on 400 random pairs
+[PASS] [p=13,t=3] Axiom II: operator sup-norm submultiplicative ||AB|| <= ||A|| ||B||
+[PASS] [p=13,t=3] Axiom III: v_e^T u_e = 1
+[PASS] [p=13,t=3] Axiom III: R_e = (nabla_e - u_e v_e^T)/mu(e) has ||R_e|| <= 1
+[PASS] [p=13,t=3] Axiom III (derivation): ping-pong g_e(P^1 \ D_ebar) in a_e + p^t Z_p
+[PASS] [p=13,t=3] Axiom IV: all 12 allowed junction weights are p-adic units
+[PASS] [p=13,t=3] Axiom IV: backtracking junctions e -> ebar have w = 0 (correctly excluded)
+[PASS] Negative control: bad position (a_2 = 1+p ~ r_1 = 1) violates Axiom IV  -- 2 non-unit junction(s)
+[PASS] Remark 2.2: 2g fixed points in distinct residue classes => Axiom IV (300 random instances)
+-- 46/50 checks passed
+
+==============================================================================
+2.2  Theorem 1: leading-digit product formula
+==============================================================================
+[PASS] [p=7, t=1] r(delta) = prod w * (1 + O(p^-t)): min v_p(r/prod w - 1) = 1 >= t_min = 1
+[PASS] [p=7, t=1] uniform in n (n = 1..128): no decay of the error exponent with length  -- per-n min: 1:60, 4:1, 16:1, 64:1, 128:1
+[PASS] [p=7, t=1] leading digit of r(delta) = prod a(e_k,e_k+1) mod p (840 words)
+[PASS] [p=7, t=1] valuations add: v_p(det) = sum of t over letters
+[PASS] [p=7, t=1] second eigenvalue: v_p(lambda_2) >= sum t (lambda_1 = trace to O(p^-t))
+[PASS] [p=7, t=2] r(delta) = prod w * (1 + O(p^-t)): min v_p(r/prod w - 1) = 2 >= t_min = 2
+[PASS] [p=7, t=2] uniform in n (n = 1..128): no decay of the error exponent with length  -- per-n min: 1:60, 4:2, 16:2, 64:2, 128:2
+[PASS] [p=7, t=2] leading digit of r(delta) = prod a(e_k,e_k+1) mod p (840 words)
+[PASS] [p=7, t=2] valuations add: v_p(det) = sum of t over letters
+[PASS] [p=7, t=2] second eigenvalue: v_p(lambda_2) >= sum t (lambda_1 = trace to O(p^-t))
+[PASS] [p=11, t=1] r(delta) = prod w * (1 + O(p^-t)): min v_p(r/prod w - 1) = 1 >= t_min = 1
+[PASS] [p=11, t=1] uniform in n (n = 1..128): no decay of the error exponent with length  -- per-n min: 1:60, 4:1, 16:1, 64:1, 128:1
+[PASS] [p=11, t=1] leading digit of r(delta) = prod a(e_k,e_k+1) mod p (840 words)
+[PASS] [p=11, t=1] valuations add: v_p(det) = sum of t over letters
+[PASS] [p=11, t=1] second eigenvalue: v_p(lambda_2) >= sum t (lambda_1 = trace to O(p^-t))
+[PASS] [p=13, t=3] r(delta) = prod w * (1 + O(p^-t)): min v_p(r/prod w - 1) = 3 >= t_min = 3
+[PASS] [p=13, t=3] uniform in n (n = 1..128): no decay of the error exponent with length  -- per-n min: 1:60, 4:3, 16:3, 64:3, 128:3
+[PASS] [p=13, t=3] leading digit of r(delta) = prod a(e_k,e_k+1) mod p (840 words)
+[PASS] [p=13, t=3] valuations add: v_p(det) = sum of t over letters
+[PASS] [p=13, t=3] second eigenvalue: v_p(lambda_2) >= sum t (lambda_1 = trace to O(p^-t))
+[PASS] [p=7, mixed t=(1,3)] r(delta) = prod w * (1 + O(p^-t)): min v_p(r/prod w - 1) = 1 >= t_min = 1
+[PASS] [p=7, mixed t=(1,3)] uniform in n (n = 1..128): no decay of the error exponent with length  -- per-n min: 1:60, 4:1, 16:1, 64:1, 128:1
+[PASS] [p=7, mixed t=(1,3)] leading digit of r(delta) = prod a(e_k,e_k+1) mod p (840 words)
+[PASS] [p=7, mixed t=(1,3)] valuations add: v_p(det) = sum of t over letters
+[PASS] [p=7, mixed t=(1,3)] second eigenvalue: v_p(lambda_2) >= sum t (lambda_1 = trace to O(p^-t))
+[PASS] [p=11, rank 3, t=1] r(delta) = prod w * (1 + O(p^-t)): min v_p(r/prod w - 1) = 1 >= t_min = 1
+[PASS] [p=11, rank 3, t=1] uniform in n (n = 1..128): no decay of the error exponent with length  -- per-n min: 1:60, 4:1, 16:1, 64:1, 128:1
+[PASS] [p=11, rank 3, t=1] leading digit of r(delta) = prod a(e_k,e_k+1) mod p (840 words)
+[PASS] [p=11, rank 3, t=1] valuations add: v_p(det) = sum of t over letters
+[PASS] [p=11, rank 3, t=1] second eigenvalue: v_p(lambda_2) >= sum t (lambda_1 = trace to O(p^-t))
+[PASS] Order as printed (nabla_en ... nabla_e1) gives the same r(delta) as nabla_e1 ... nabla_en  -- 0/840 disagree (2x2 trace-reversal identity: tr(w) = tr(reverse w), same det)
+[PASS] Word reversal leaves r(delta) unchanged exactly mod p^K (asymmetric instance)
+[PASS] Negative control: without Axiom IV the formula fails on some words  -- min rel. valuation 0, digit mismatches 446/560
+-- 33/33 checks passed
+
+==============================================================================
+2.3  Leaves of the valuation foliation
+==============================================================================
+[PASS] [g=2,p=7,t=1] val det gamma_delta = n t exactly (exact rationals, n<=4)
+[PASS] [g=2,p=7,t=1] leaf L_(nt) = C_n for n = 1..6
+[PASS] [g=2,p=7,t=1] N_n = |C_n| = Tr(B_1^n) = (2g-1)^n + g + (g-1)(-1)^n, n = 1..6
+[PASS] [g=2,p=7,t=1] flag probability N_n / (d(d-1)^(n-1)) bounded below (min 0.753)
+[PASS] [g=2,p=7,t=2] val det gamma_delta = n t exactly (exact rationals, n<=4)
+[PASS] [g=2,p=7,t=2] leaf L_(nt) = C_n for n = 1..6
+[PASS] [g=2,p=7,t=2] N_n = |C_n| = Tr(B_1^n) = (2g-1)^n + g + (g-1)(-1)^n, n = 1..6
+[PASS] [g=2,p=7,t=2] flag probability N_n / (d(d-1)^(n-1)) bounded below (min 0.753)
+[PASS] [g=3,p=11,t=1] val det gamma_delta = n t exactly (exact rationals, n<=4)
+[PASS] [g=3,p=11,t=1] leaf L_(nt) = C_n for n = 1..6
+[PASS] [g=3,p=11,t=1] N_n = |C_n| = Tr(B_1^n) = (2g-1)^n + g + (g-1)(-1)^n, n = 1..6
+[PASS] [g=3,p=11,t=1] flag probability N_n / (d(d-1)^(n-1)) bounded below (min 0.834)
+[PASS] Non-uniform t=(1,2): some leaf L_m contains words of different lengths (clock register needed)  -- e.g. L_4 holds lengths [2, 3, 4]
+[PASS] Non-uniform t: val det gamma_delta = sum of t over letters
+-- 14/14 checks passed
+
+==============================================================================
+2.4  Quantum layer: Axioms V and VI
+==============================================================================
+[PASS] [p=5] Axiom V: every M_a is unitary (permutation of F_p^*)
+[PASS] [p=5] Axiom V: M_a M_b = M_ab (representation of F_p^*)
+[PASS] [p=5] Axiom V: transport operators commute (order of junctions irrelevant)
+[PASS] [p=5] Axiom V: junction digits a(e,e') are in F_p^* for all allowed junctions
+[PASS] [p=5] Axiom VI: Phi is unitary and diagonal
+[PASS] [p=5] Axiom VI: Phi is not a multiple of a transport operator (additive vs multiplicative)
+[PASS] [p=5] Bridge: transport of |1> around delta = |leading digit of r(delta)> (200 words)
+[PASS] [p=5] Bridge: <Phi> on the transported state = psi(leading digit of r(delta))
+[PASS] [p=7] Axiom V: every M_a is unitary (permutation of F_p^*)
+[PASS] [p=7] Axiom V: M_a M_b = M_ab (representation of F_p^*)
+[PASS] [p=7] Axiom V: transport operators commute (order of junctions irrelevant)
+[PASS] [p=7] Axiom V: junction digits a(e,e') are in F_p^* for all allowed junctions
+[PASS] [p=7] Axiom VI: Phi is unitary and diagonal
+[PASS] [p=7] Axiom VI: Phi is not a multiple of a transport operator (additive vs multiplicative)
+[PASS] [p=7] Bridge: transport of |1> around delta = |leading digit of r(delta)> (200 words)
+[PASS] [p=7] Bridge: <Phi> on the transported state = psi(leading digit of r(delta))
+[PASS] [p=11] Axiom V: every M_a is unitary (permutation of F_p^*)
+[PASS] [p=11] Axiom V: M_a M_b = M_ab (representation of F_p^*)
+[PASS] [p=11] Axiom V: transport operators commute (order of junctions irrelevant)
+[PASS] [p=11] Axiom V: junction digits a(e,e') are in F_p^* for all allowed junctions
+[PASS] [p=11] Axiom VI: Phi is unitary and diagonal
+[PASS] [p=11] Axiom VI: Phi is not a multiple of a transport operator (additive vs multiplicative)
+[PASS] [p=11] Bridge: transport of |1> around delta = |leading digit of r(delta)> (200 words)
+[PASS] [p=11] Bridge: <Phi> on the transported state = psi(leading digit of r(delta))
+[PASS] [p=13] Axiom V: every M_a is unitary (permutation of F_p^*)
+[PASS] [p=13] Axiom V: M_a M_b = M_ab (representation of F_p^*)
+[PASS] [p=13] Axiom V: transport operators commute (order of junctions irrelevant)
+[PASS] [p=13] Axiom V: junction digits a(e,e') are in F_p^* for all allowed junctions
+[PASS] [p=13] Axiom VI: Phi is unitary and diagonal
+[PASS] [p=13] Axiom VI: Phi is not a multiple of a transport operator (additive vs multiplicative)
+[PASS] [p=13] Bridge: transport of |1> around delta = |leading digit of r(delta)> (200 words)
+[PASS] [p=13] Bridge: <Phi> on the transported state = psi(leading digit of r(delta))
+[PASS] [p=31] Axiom V: every M_a is unitary (permutation of F_p^*)
+[PASS] [p=31] Axiom V: M_a M_b = M_ab (representation of F_p^*)
+[PASS] [p=31] Axiom V: transport operators commute (order of junctions irrelevant)
+[PASS] [p=31] Axiom V: junction digits a(e,e') are in F_p^* for all allowed junctions
+[PASS] [p=31] Axiom VI: Phi is unitary and diagonal
+[PASS] [p=31] Axiom VI: Phi is not a multiple of a transport operator (additive vs multiplicative)
+[PASS] [p=31] Bridge: transport of |1> around delta = |leading digit of r(delta)> (200 words)
+[PASS] [p=31] Bridge: <Phi> on the transported state = psi(leading digit of r(delta))
+-- 40/40 checks passed
+
+==============================================================================
+Theorem 2: Qp-Foliation Interference Theorem
+==============================================================================
+[PASS] [p=7] (1) S_n = sum_chi G(chibar)/(p-1) Tr(B_chi^n) for n = 1..7  -- max |diff| = 4.60e-12
+[PASS] [p=7] (1) coefficient moduli: 1/(p-1) for chi = 1, sqrt(p)/(p-1) otherwise, none zero
+[PASS] [p=7] (1) every sector factors along the walk: chi(abar) = prod chi(a(e_k,e_k+1))
+[PASS] [p=7] (1) the additive character does not factor: psi(abar) != prod psi(a(...)) on some word
+[PASS] [p=11] (1) S_n = sum_chi G(chibar)/(p-1) Tr(B_chi^n) for n = 1..7  -- max |diff| = 3.20e-12
+[PASS] [p=11] (1) coefficient moduli: 1/(p-1) for chi = 1, sqrt(p)/(p-1) otherwise, none zero
+[PASS] [p=11] (1) every sector factors along the walk: chi(abar) = prod chi(a(e_k,e_k+1))
+[PASS] [p=11] (1) the additive character does not factor: psi(abar) != prod psi(a(...)) on some word
+[PASS] [p=7] Hypothesis (H): prefix digits ending at e* cover F_p^* (lengths <= 6)  -- 6/6
+[PASS] [p=7] Hypothesis (H): suffix digits starting at e' cover F_p^*
+[PASS] [p=7] (2) Hankel block phi(uv) = psi(c a(u) a(v))
+[PASS] [p=7] (2) rank of the block K = p - 1 = 6  -- rank 6
+[PASS] [p=7] (2) contrast: chi o abar block has rank 1 (factors)
+[PASS] [p=7] (2) full Hankel rank >= p - 1 (lower bound used in the proof)  -- rank 25
+[PASS] [p=7] (2) full Hankel rank <= d(p-1) + 1 (explicit automaton, incl. start state)  -- rank 25, d(p-1)+1 = 25
+[FAIL] [p=7] (2) as printed: Hankel rank EXACTLY p - 1  -- observed 25; correct statement: p-1 <= rank <= d(p-1)+1
+[PASS] [p=11] Hypothesis (H): prefix digits ending at e* cover F_p^* (lengths <= 6)  -- 10/10
+[PASS] [p=11] Hypothesis (H): suffix digits starting at e' cover F_p^*
+[PASS] [p=11] (2) Hankel block phi(uv) = psi(c a(u) a(v))
+[PASS] [p=11] (2) rank of the block K = p - 1 = 10  -- rank 10
+[PASS] [p=11] (2) contrast: chi o abar block has rank 1 (factors)
+[PASS] [p=11] (2) full Hankel rank >= p - 1 (lower bound used in the proof)  -- rank 37
+[PASS] [p=11] (2) full Hankel rank <= d(p-1) + 1 (explicit automaton, incl. start state)  -- rank 37, d(p-1)+1 = 41
+[FAIL] [p=11] (2) as printed: Hankel rank EXACTLY p - 1  -- observed 37; correct statement: p-1 <= rank <= d(p-1)+1
+[PASS] [p=13] Hypothesis (H): prefix digits ending at e* cover F_p^* (lengths <= 6)  -- 12/12
+[PASS] [p=13] Hypothesis (H): suffix digits starting at e' cover F_p^*
+[PASS] [p=13] (2) Hankel block phi(uv) = psi(c a(u) a(v))
+[PASS] [p=13] (2) rank of the block K = p - 1 = 12  -- rank 12
+[PASS] [p=13] (2) contrast: chi o abar block has rank 1 (factors)
+[PASS] [p=13] (2) full Hankel rank >= p - 1 (lower bound used in the proof)  -- rank 38
+[PASS] [p=13] (2) full Hankel rank <= d(p-1) + 1 (explicit automaton, incl. start state)  -- rank 38, d(p-1)+1 = 49
+[FAIL] [p=13] (2) as printed: Hankel rank EXACTLY p - 1  -- observed 38; correct statement: p-1 <= rank <= d(p-1)+1
+[PASS] [p=7,n=3] (3) circuit A is unitary (A^dag A v = v, norm preserved)
+[PASS] [p=7,n=3] (3) flag probability = N_n / (d(d-1)^(n-1)) = 0.7778
+[PASS] [p=7,n=3] (3) Hadamard test returns Re(S_n/N_n) = -0.683189  -- circuit -0.683189
+[PASS] [p=7,n=3] (3) full complex value: <V> on flagged branch / P_f = S_n/N_n
+[PASS] [p=7,n=3] (3) Grover iterate: P_good(Q^k A|0>) = sin^2((2k+1) theta), k = 1..24 (premise of O(1/eps) amplitude estimation)
+       note: p=7, n=3: quantum layer uses n*ceil(log2 d) + ceil(log2 p) = 9 data qubits (+ flag, ancilla)
+[PASS] [p=7,n=4] (3) circuit A is unitary (A^dag A v = v, norm preserved)
+[PASS] [p=7,n=4] (3) flag probability = N_n / (d(d-1)^(n-1)) = 0.7778
+[PASS] [p=7,n=4] (3) Hadamard test returns Re(S_n/N_n) = -0.569919  -- circuit -0.569919
+[PASS] [p=7,n=4] (3) full complex value: <V> on flagged branch / P_f = S_n/N_n
+[PASS] [p=7,n=4] (3) Grover iterate: P_good(Q^k A|0>) = sin^2((2k+1) theta), k = 1..24 (premise of O(1/eps) amplitude estimation)
+       note: p=7, n=4: quantum layer uses n*ceil(log2 d) + ceil(log2 p) = 11 data qubits (+ flag, ancilla)
+[PASS] [p=11,n=3] (3) circuit A is unitary (A^dag A v = v, norm preserved)
+[PASS] [p=11,n=3] (3) flag probability = N_n / (d(d-1)^(n-1)) = 0.7778
+[PASS] [p=11,n=3] (3) Hadamard test returns Re(S_n/N_n) = -0.221468  -- circuit -0.221468
+[PASS] [p=11,n=3] (3) full complex value: <V> on flagged branch / P_f = S_n/N_n
+[PASS] [p=11,n=3] (3) Grover iterate: P_good(Q^k A|0>) = sin^2((2k+1) theta), k = 1..24 (premise of O(1/eps) amplitude estimation)
+       note: p=11, n=3: quantum layer uses n*ceil(log2 d) + ceil(log2 p) = 10 data qubits (+ flag, ancilla)
+[PASS] [p=7] (4) explicit transfer matrix of dimension d(p-1) = 24 computes S_n (n=1..7)
+[PASS] [p=11] (4) explicit transfer matrix of dimension d(p-1) = 40 computes S_n (n=1..7)
+[PASS] (4) transfer-matrix lower bound grows like p: rank K = p - 1 for p = 5..23  -- {5: 4, 7: 6, 11: 10, 13: 12, 17: 16, 19: 18, 23: 22}
+[PASS] (4) classical sampling error scales as N^-1/2, i.e. Theta(1/eps^2) samples  -- fitted slope -0.517; RMSE 0.1016, 0.0495, 0.0235, 0.0119
+-- 48/51 checks passed
+
+==============================================================================
+SUMMARY
+==============================================================================
+HAS FAILS  2.1 Definition 2.1, Axioms I-IV          (  0.5s)
+ALL PASS   2.2 Theorem 1                            (  3.0s)
+ALL PASS   2.3 Leaves                               (  0.4s)
+ALL PASS   2.4 Quantum layer, Axioms V-VI           (  0.8s)
+HAS FAILS  Theorem 2                                (  8.8s)
